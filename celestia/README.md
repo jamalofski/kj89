@@ -316,6 +316,6 @@ sudo systemctl disable celestia-appd
 sudo rm /etc/systemd/system/celestia* -rf
 sudo rm $(which celestia-appd) -rf
 sudo rm $HOME/.celestia-app* -rf
-sudo rm $HOME/celestia -rf
+sudo rm $HOME/celestia-app -rf
 sed -i '/CELESTIA_/d' ~/.bash_profile
 ```
